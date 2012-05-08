@@ -1,0 +1,6 @@
+"Gamemode"
+{
+	"base"		"base"
+	"title"		"Candelabra"
+	"menusystem"	"1"
+}
