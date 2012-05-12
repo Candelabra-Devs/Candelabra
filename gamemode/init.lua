@@ -12,4 +12,10 @@ end
 -- Load the Gamemode                                                  --
 --====================================================================--
 
-include( "plugins.lua" )
+-- Include client files
+AddCSLuaFile( "cl_init.lua" );
+AddCSLuaFile( "shared.lua"  );
+
+-- Server Init.
+include( "shared.lua"  );
+include( "plugins.lua" );
